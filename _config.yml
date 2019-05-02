@@ -3,7 +3,7 @@ email:             hello@jungjawa.com
 description:       Gimana kalo liat-liat dulu aja?
 author:            Arif Munandar
 baseurl:           "/"
-url:               "http://jungjawa.github.io"
+url:               "https://jungjawa.github.io"
 permalink: pretty
 
 # Social Profiles
