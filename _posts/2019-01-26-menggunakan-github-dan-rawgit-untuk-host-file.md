@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Menggunakan GitHub dan RawGit untuk Host File"
-subtitle: "Kayaknya sih gampang bikinnya, tapi worth it kok kalo dicoba"
+subtitle: "Kalo bisa pake GitHub, ya sekalian saja"
 date:   2018-01-26 10:45:13 -0300
 permalink: menggunakan-gitHub-dan-rawgit-untuk-host-file
 ---
