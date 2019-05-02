@@ -29,9 +29,10 @@ Saya belum eksplor apakah ada plugin atau method untuk membuat dashboard untuk m
 
 Jekyll bisa membaca untuk file dengan ekstensi **Markdown** dan **HTML**. Jadi, untuk membuat sebuah post, kita membuat file .md atau .html menggunakan text editor. Saya menggunakan [Visual Studio Code](https://code.visualstudio.com/).
 
-![Editor Visual Studio Code untuk menulis artikel](\img\posts\editor_vs_code.jpg)
-*seems legit, right?*
-
+<p>
+<img class='img-fluid' src='\img\posts\editor_vs_code.jpg' alt='Editor Visual Studio Code untuk menulis artikel'>
+<figcaption class="figure-caption text-center">Seems legit, right?</figcaption>
+</p>
 
 ### 3. Offline Working
 Sudah tau kan, kalau membuat artikel di Jekyll, kita menggunakan text editor. Sehingga, pekerjaan menulis artikel bisa dilakukan secara offline saja. Tanpa harus terkoneksi dengan internet.
