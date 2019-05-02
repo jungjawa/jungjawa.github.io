@@ -4,7 +4,7 @@ description:       A Blog Theme by Start Bootstrap
 author:            Start Bootstrap
 baseurl:           "/"
 url:               "http://jungjawa.github.io"
-permalink:         /:title.html
+permalink:         pretty
 
 # Social Profiles
 twitter_username:  jungjawa
