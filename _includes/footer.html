@@ -5,69 +5,76 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="row justify-content-center">
-              <div class="col-md-4 col-xl-3">
-                <h5>
-                  Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}. All rights
-                  reserved.
-                </h5>
-                I&#39;m happy for you to share content on this site, but please provide
-                attribution.
-              </div>
-              <div class="col-md-4 col-xl-3">
-                <h5>Disclaimer</h5>
-                Opinions expressed here are my own and may not reflect those of the
-                company I work for, or the people I work with.
-              </div>
-              <div class="col-md-4 col-xl-3">
-                <h5>About This Site</h5>
-                This blog was created using the <a href="https://jekyllrb.com/">Jekyll</a>{" "}
-                static site generator, fully powered by <a href="https://github.com">Github</a>infrastructure, and supported by <a href="https://getbootstrap.com/">Bootstrap</a> as web frameworks. 
-              </div>
-            </div>
-        <ul class="list-inline text-center">
-          {% if site.twitter_username %}
-          <li class="list-inline-item">
-            <a href="https://www.twitter.com/{{ site.twitter_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.facebook_username %}
-          <li class="list-inline-item">
-            <a href="https://www.facebook.com/{{ site.facebook_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.instagram_username %}
-          <li class="list-inline-item">
-            <a href="https://www.instagram.com/{{ site.instagram_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.github_username %}
-          <li class="list-inline-item">
-            <a href="https://github.com/{{ site.github_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-        </ul>
+      <div class="col-lg-10 col-md-10 mx-auto">
+        <div class="row justify-content-center">
+          
+          <div class="col-md-4 col-xl-3">
+            <h6>About This Site</h6>
+              <p>
+                This blog was created using the <a href="https://jekyllrb.com/">Jekyll</a> static site generator, brought to you by <a href="https://github.com">Github</a>infrastructure, and supported by <a href="https://getbootstrap.com/">Bootstrap</a> as web frameworks.
+              </p> 
+          </div>
+
+          <div class="col-md-4 col-xl-3">
+            <h6>Disclaimer</h6>
+              <p>Opinions expressed here are my own and may not reflect those of the company I work for, or the people I work with.
+              </p>
+          </div>
+          
+          <div class="col-md-4 col-xl-3">
+            <h6>Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}. All rights reserved.</h6>
+              <p>
+                I&#39;m happy for you to share content on this site, but please provide attribution.
+              </p>
+          </div>
+          
+        </div>
+        <hr/>
+        <div class="d-flex justify-content-center icons">
+          <ul class="list-inline text-center">
+            {% if site.twitter_username %}
+            <li class="list-inline-item">
+              <a href="https://www.twitter.com/{{ site.twitter_username }}">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            {% endif %}
+            {% if site.facebook_username %}
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            {% endif %}
+            {% if site.instagram_username %}
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/{{ site.instagram_username }}">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            {% endif %}
+            {% if site.github_username %}
+            <li class="list-inline-item">
+              <a href="https://github.com/{{ site.github_username }}">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            {% endif %}
+          </ul>
+        </div>
+      
       </div>
     </div>
   </div>
