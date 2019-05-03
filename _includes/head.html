@@ -3,6 +3,30 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@jungjawa">
+  <meta name="twitter:creator" content="@jungjawa">
+  {% if page.title %}
+    <meta name="og:title" content="{{ page.title }}">
+  {% else %}
+    <meta name="og:title" content="{{ site.title }}">
+  {% endif %}
+  {% if page.url %}
+    <meta name="og:url" content="{{ site.url }}{{ page.url }}">
+  {% endif %}
+  {% if page.description %}
+    <meta name="og:description" content="{{ page.description }}">
+  {% else %}
+    <meta name="og:description" content="{{ site.description }}">
+  {% endif %}
+  {% if page.image %}
+    <meta name="og:image" content="{{ site.url }}/images/posts/{{ page.image }}">
+  {% else % }
+    <meta name="og:image" content="{{ site.url }}/images/posts/me.png">
+  {% else % }
+    <meta name="og:image" content="{{ site.url }}/images/posts/me.png">
+  {% endif %}
+
   <title>
     {% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}
     {% else %}{{ site.title | escape }}{% endif %}
