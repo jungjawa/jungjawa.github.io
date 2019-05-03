@@ -28,7 +28,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:creator" content="@{{ site.twitter_username }}">
-  <meta name="twitter:image" content="{%if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}{{ site.logo }}{% endif %}">
+  <meta name="twitter:image" content="{%if page.background %}{{ site.url }}{{ page.background }}{% else %}{{ site.url }}{{ site.logo }}{% endif %}">
 
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
