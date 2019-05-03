@@ -45,8 +45,10 @@ Kebayang kan? Sudah nulis 7000 kata terus cari satu-satu kata mana yang harus di
 ### 4. Social Network
 Dasar dari GitHub Pages tanpa social system. Sehingga untuk _commenting system_ menggunakan sistem terpisah. Saya mengamati pengguna Jekyll banyak menggunakan Disqus sebagai commenting blog mereka.
 
-> Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.
->> Whatever, happy blogging!
+<blockquote class="blockquote">
+    <p class="mb-0">Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.</p>
+    <footer class="blockquote-footer">Whatever, happy blogging!<cite title="Keep going!">Keep going!</cite></footer>
+</blockquote>
 
 Kesimpulannya, saya ingin mendalami Jekyll lagi. Entah itu basic-nya Gem atau justru _compare_ dengan framework lain seperti Gatsby atau Hugo.
 
