@@ -6,6 +6,7 @@ date:   2018-01-26 10:45:13 -0100
 background: '/img/posts/06.jpg'
 permalink: menggunakan-https-pada-blogspot
 comments: true
+description: http availability for Jekyll
 ---
 
 Entah kenapa, Blogspot bisa menjadikan blog dengan setting custom domain bisa diakses dengan protokol HTTPS. Padahal jika diakses menggunakan blogger.com, pihak Blogger masih tidak mau menyatakan bahwa untuk blog dengan custom domain bisa diakses dengan menggunakan protokol HTTPS.
