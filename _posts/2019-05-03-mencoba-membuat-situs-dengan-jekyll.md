@@ -5,6 +5,7 @@ subtitle: "Sebuah rasa ingin tau dan coba-coba"
 date:   2019-05-03 23:45:13 -0300
 permalink: mencoba-membuat-situs-web-dengan-jekyll
 comments: true
+description: Ternyata, menggunakan Jekyll untuk blog susah-susah gampang. Tapi worth it untuk dicoba.
 ---
 
 Akhirnya saya berkesempatan mencoba menggunakan Jekyll juga. Setelah sekian lama.

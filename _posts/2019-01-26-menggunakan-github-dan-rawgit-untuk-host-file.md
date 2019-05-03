@@ -5,6 +5,7 @@ subtitle: "Kalo bisa pake GitHub, ya sekalian saja"
 date:   2018-01-26 10:45:13 -0300
 permalink: menggunakan-gitHub-dan-rawgit-untuk-host-file
 comments: true
+description: Dengan RawGit, mengambil url untuk repositori di GitHub menjadi semakin mudah.
 ---
 
 Kelemahan utama ketika saya melakukan _developing_ _theme_ menggunakan blogspot adalah ketiadaan _space_ untuk membuat repositori file yang akan digunakan. Jalan pintasnya adalah saya membeli sebuah _hosting_ dan dapat dengan mudah menyimpan file-file CSS dan Javascript di sana.  
@@ -25,4 +26,4 @@ Kita perlu menggunakan **RawGit**.
 
 > RawGit serves raw files directly from GitHub with proper Content-Type headers.
 
-Di RawGit, _paste_ _url_ _file_ repo yang ada di GitHub, kemudian ambil url produksi, bukan development. Nah, url ini bisa langsung kita pakai di blogspot.
+Di RawGit, _paste_ _url_ _file_ repo yang ada di GitHub, kemudian ambil url produksi, bukan _development_. Nah, url ini bisa langsung kita pakai di blogspot.
