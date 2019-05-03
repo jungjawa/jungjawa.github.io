@@ -4,6 +4,7 @@ title:  "Menggunakan GitHub dan RawGit untuk Host File"
 subtitle: "Kalo bisa pake GitHub, ya sekalian saja"
 date:   2018-01-26 10:45:13 -0300
 permalink: menggunakan-gitHub-dan-rawgit-untuk-host-file
+comments: true
 ---
 
 Kelemahan utama ketika saya melakukan _developing_ _theme_ menggunakan blogspot adalah ketiadaan _space_ untuk membuat repositori file yang akan digunakan. Jalan pintasnya adalah saya membeli sebuah _hosting_ dan dapat dengan mudah menyimpan file-file CSS dan Javascript di sana.  
