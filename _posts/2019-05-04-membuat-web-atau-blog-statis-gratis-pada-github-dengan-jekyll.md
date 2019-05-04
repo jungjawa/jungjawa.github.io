@@ -22,16 +22,16 @@ Berikut ini adalah beberapa tools yang kita perlukan:
 
 <dl class="row">
   <dt class="col-sm-3">Github Account</dt>
-  <dd class="col-sm-9">bisa dengan mudah dibuat di [github.com/join](https://github.com/join) _(free)_</dd>
+  <dd class="col-sm-9">bisa dengan mudah dibuat di <a href="https://github.com/join">github.com/join</a> <i>(free)</i></dd>
 
   <dt class="col-sm-3">Internet Browser</dt>
   <dd class="col-sm-9">Chrome, Firefox, Safari</dd>
 
   <dt class="col-sm-3">Text Editor</dt>
-  <dd class="col-sm-9">Tergantung selera kalian, saya lebih prefer [Visual Studio Code](https://code.visualstudio.com/) _(free)_</dd>
+  <dd class="col-sm-9">Tergantung selera kalian, saya lebih prefer <a href="https://code.visualstudio.com">Visual Studio Code</a> <i>(free)</i></dd>
 
   <dt class="col-sm-3">Github Desktop</dt>
-  <dd class="col-sm-9">ini penting agar mempermudah _commit_ pada repositori kita di Github Pages. Silakan download di [desktop.github.com](https://desktop.github.com/) _(free)_</dd>
+  <dd class="col-sm-9">ini penting agar mempermudah <i>commit</i> pada repositori kita di Github Pages. Silakan download di <a href="https://desktop.github.com/">desktop.github.com</a> <i>(free)</i></dd>
 
   <dt class="col-sm-3">Knowledge</dt>
   <dd class="col-sm-9">Version Control System, Markdown/HTML, Github</dd>
