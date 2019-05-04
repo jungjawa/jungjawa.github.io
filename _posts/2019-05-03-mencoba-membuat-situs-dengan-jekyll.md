@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Membuat Blog dengan Jekyll"
+title:  "Catatan Tentang Jekyll untuk Pertama Kali (Part 1) — Introduction"
 subtitle: "Sebuah rasa ingin tau dan coba-coba"
 date:   2019-05-03 23:45:13 -0300
 permalink: mencoba-membuat-situs-web-dengan-jekyll
@@ -62,3 +62,6 @@ Soalnya, instalasi Jekyll itu ribet. Harus bikin GitHub Page dulu, kemudian clon
 Tapi, tantangannya di situ sih. Kebetulan saya menyukainya, bisa dipakai buat belajar. Sebelum saya menulis artikel ini, saya harus berjibaku untuk melakukan setup SSL untuk blog ini. Ribet, serius.
 
 Itung-itung bisa dipake buat belajar lah. Siapa tau kan bisa belajar Ruby dikit. Ya ga rugi lah, kan host-nya gratis di GitHub, terus domainnya numpang di domain utama. Hahaha...
+
+<strong>Edit:</strong>
+Saya sudah menuliskan Part 2 tentang [bagaimana deploy Jekyll pada Github Pages](/membuat-web-atau-blog-statis-gratis-pada-github-dengan-jekyll)
