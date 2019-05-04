@@ -35,7 +35,7 @@ Berikut ini adalah beberapa tools yang kita perlukan:
 
   <dt class="col-sm-3">Knowledge</dt>
   <dd class="col-sm-9">Version Control System, Markdown/HTML, Github</dd>
-</dl
+</dl>
 
 Sebenarnya ada cara lain untuk membuat static website ini, yaitu menggunakan _package manager_ Gems. Namun, saya lebih memilih metode konvensional saja.
 
