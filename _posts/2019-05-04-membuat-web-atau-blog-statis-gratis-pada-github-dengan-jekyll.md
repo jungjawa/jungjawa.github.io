@@ -5,7 +5,8 @@ subtitle: "Jekyll dan Github bisa digunakan untuk membuat blog dengan gratis dan
 date:   2019-05-04 06:45:13 -0400
 permalink: membuat-web-atau-blog-statis-gratis-pada-github-dengan-jekyll
 comments: true
-description: Ingin membuat website statis untuk blogmu? You are in the right place!
+description: Ingin membuat website statis untuk blogmu? You are in the right place to start!
+background: '/img/posts/bg-part-2-menggunakan-jekyll.jpg'
 ---
 
 Pada post ini, saya akan melakukan banyak sekali simplikasi, _i try to make this as simple as possible_. Ya kan nggak semua orang akan mengerti _technical stuff_ dan seenggaknya dari artikel ini, mereka akan mendapatkan gambaran yang jelas.
