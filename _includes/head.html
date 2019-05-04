@@ -13,32 +13,40 @@
   </title>
 
   <meta content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" property="og:title">
-  <meta content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" property="og:url">
+  <meta content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+    property="og:url">
   <meta content="{{ site.title }}" property="og:site_name">
   {% if page.title %}
-    <meta content="article" property="og:type">
+  <meta content="article" property="og:type">
   {% else %}
-    <meta content="website" property="og:type">
+  <meta content="website" property="og:type">
   {% endif %}
-  <meta content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" property="og:description">
-  <meta content="{{site.url}}{{ site.baseurl }}/{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}" property="og:image">
+  <meta content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
+    property="og:description">
+  <meta
+    content="{{site.url}}{{ site.baseurl }}/{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}"
+    property="og:image">
   <meta content="{{ site.author }}" name="Author">
   <meta content="https://www.facebook.com/{{ site.facebook_username }}" property="article:author">
   <meta name="twitter:site" content="{{ site.title }}">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:description"
+    content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:creator" content="@{{ site.twitter_username }}">
-  <meta name="twitter:image" content="{%if page.background %}{{ site.url }}{{ page.background }}{% else %}{{ site.url }}{{ site.logo }}{% endif %}">
+  <meta name="twitter:image"
+    content="{%if page.background %}{{ site.url }}{{ page.background }}{% else %}{{ site.url }}{{ site.logo }}{% endif %}">
 
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="description"
+    content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css' >
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
   <link rel="stylesheet" href="{{"/assets/vendor/bootstrap/css/bootstrap.min.css" | relative_url }}">
   <link rel="stylesheet" href="{{"/assets/vendor/fontawesome-free/css/all.min.css" | relative_url }}">
   <link rel="stylesheet" href="{{"/assets/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}"
+    href="{{ "/feed.xml" | relative_url }}">
 
 </head>
