@@ -20,11 +20,22 @@ _That’s why I want to try a static site generator to see the alternatives_.
 ## Required Tools
 Berikut ini adalah beberapa tools yang kita perlukan:
 
-- **Github Account**: bisa dengan mudah dibuat di [github.com/join](https://github.com/join) _(free)_
-- **Internet Browser**: Chrome, Firefox, Safari
-- **Text Editor**: Tergantung selera kalian, saya lebih prefer [Visual Studio Code](https://code.visualstudio.com/) _(free)_
-- **Github Desktop**: ini penting agar mempermudah _commit_ pada repositori kita di Github Pages. Silakan download di [desktop.github.com](https://desktop.github.com/) _(free)_
-- **Knowledge**: Version Control System, Markdown/HTML, Github,
+<dl class="row">
+  <dt class="col-sm-3">Github Account</dt>
+  <dd class="col-sm-9">bisa dengan mudah dibuat di [github.com/join](https://github.com/join) _(free)_</dd>
+
+  <dt class="col-sm-3">Internet Browser</dt>
+  <dd class="col-sm-9">Chrome, Firefox, Safari</dd>
+
+  <dt class="col-sm-3">Text Editor</dt>
+  <dd class="col-sm-9">Tergantung selera kalian, saya lebih prefer [Visual Studio Code](https://code.visualstudio.com/) _(free)_</dd>
+
+  <dt class="col-sm-3">Github Desktop</dt>
+  <dd class="col-sm-9">ini penting agar mempermudah _commit_ pada repositori kita di Github Pages. Silakan download di [desktop.github.com](https://desktop.github.com/) _(free)_</dd>
+
+  <dt class="col-sm-3">Knowledge</dt>
+  <dd class="col-sm-9">Version Control System, Markdown/HTML, Github</dd>
+</dl
 
 Sebenarnya ada cara lain untuk membuat static website ini, yaitu menggunakan _package manager_ Gems. Namun, saya lebih memilih metode konvensional saja.
 
@@ -90,8 +101,8 @@ Semua file post harus menggunakan **front matter** yang berisi layout atau meta 
 
 ___
 
-<small>PS : for all the Github users expert who reads this easy post, hehe I know, I left out many important technical parts like git, using package manager or installing other tools.
+<small>PS : for all the Github users expert who reads this easy post, hehe I know, I left out many important technical parts like git, using package manager or installing other tools.</small>
 
-But if I try to simplify this post.
+<small>But if I try to simplify this post.</small>
 
-Sometimes it’s better to be simplifying everything but understood, than to be over details step by step but with no one understand technical things.</small>
+<small>Sometimes it’s better to be simplifying everything but understood, than to be over details step by step but with no one understand technical things.</small>
