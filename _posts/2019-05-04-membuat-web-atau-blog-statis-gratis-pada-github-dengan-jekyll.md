@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Membuat Web Blog Statis dengan Jekyll dan Github Pages (Part 2) — Instalation"
+title:  "Membuat Web Blog Statis dengan Jekyll dan Github Pages (Part 2) — Installation"
 subtitle: "Jekyll dan Github bisa digunakan untuk membuat blog dengan gratis dan mudah"
 date:   2019-05-04 06:45:13 -0400
 permalink: membuat-web-atau-blog-statis-gratis-pada-github-dengan-jekyll
